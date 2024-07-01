@@ -1,8 +1,3 @@
-<%-- 
-    Document   : nirob
-    Created on : Jun 30, 2024, 6:13:24 PM
-    Author     : Admin
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
