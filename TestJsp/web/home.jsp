@@ -8,6 +8,7 @@
     </head>
     <body>
          <%=new java.util.Date() %> 
-        <h1>Hello World!</h1>
+         
+         <a href="employeeAddFrom.jsp">Add Data</a>
     </body>
 </html>

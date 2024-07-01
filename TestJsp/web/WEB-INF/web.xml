@@ -9,7 +9,7 @@
     
     <welcome-file-list>
         <welcome-file>
-            Neyamul.jsp
+            home.jsp
         </welcome-file>
     </welcome-file-list>
         

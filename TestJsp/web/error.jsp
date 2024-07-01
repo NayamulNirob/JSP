@@ -1,6 +1,6 @@
 <%-- 
-    Document   : nirjash
-    Created on : Jun 30, 2024, 6:16:11 PM
+    Document   : error
+    Created on : Jul 1, 2024, 3:38:41 PM
     Author     : Admin
 --%>
 
@@ -12,6 +12,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1> All Is well </h1>
+        
+        <h1 style="color: red">Data Save Unsuccessful</h1>
+        <%@include  file="studentaddform.jsp"%>
+        <h1>Hello World!</h1>
+        
     </body>
 </html>
