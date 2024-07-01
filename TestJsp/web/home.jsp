@@ -7,8 +7,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-         <%=new java.util.Date() %> 
-         
          <a href="employeeAddFrom.jsp">Add Data</a>
+         <a href="viewallemployee.jsp">View Data</a>
+         
     </body>
 </html>
