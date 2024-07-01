@@ -1,6 +1,6 @@
 <%-- 
-    Document   : nirob
-    Created on : Jun 30, 2024, 6:13:24 PM
+    Document   : success
+    Created on : Jul 1, 2024, 3:40:16 PM
     Author     : Admin
 --%>
 
@@ -11,7 +11,8 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
     </head>
-    <body>
-        <h1>Hello World!s t p </h1>
+   <body>
+        <h1 style="color: green"> Data Save Success</h1>
+        <%@include  file="employeeAddFrom.jsp"%>
     </body>
 </html>
