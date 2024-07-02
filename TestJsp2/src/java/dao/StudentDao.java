@@ -75,4 +75,20 @@ public class StudentDao {
         return stlist;
     
     }
+    public static void deleteStudent(Student s){
+    
+    sql="delete from student where id=?";
+        try {
+            ps=DbUtill.getCon().prepareStatement(sql);
+            ps.setInt(1, s.getId());
+            ps.executeUpdate();
+            ps.close();
+            DbUtill.getCon().close();
+        } catch (SQLException ex) {
+            Logger.getLogger(StudentDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+    
+    
+    }
 }
