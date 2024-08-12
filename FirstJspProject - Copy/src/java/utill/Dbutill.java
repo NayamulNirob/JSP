@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public class Dbutill {
     static Connection con=null;
-    static String url="jdbc:mysql://localhost:3306/db";
+    static String url="jdbc:mysql://localhost:3306/dbcrued";
     static String user="root";
     static String password="2020";
     static String driver="com.mysql.cj.jdbc.Driver";
